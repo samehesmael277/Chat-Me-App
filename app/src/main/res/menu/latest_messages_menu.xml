@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_message_menu"
+        android:title="@string/new_message"
+        android:icon="@drawable/message_icon"
+        android:iconTint="@color/iconTint"
+        app:showAsAction="ifRoom"
+        tools:targetApi="o" />
+
+    <item
+        android:id="@+id/logout_menu"
+        android:title="@string/logout"
+        android:icon="@drawable/logout_icon"
+        android:iconTint="@color/iconTint"
+        app:showAsAction="ifRoom"
+        tools:targetApi="o" />
+
+</menu>

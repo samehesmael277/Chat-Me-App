@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp"
+    android:id="@+id/root"
+    android:padding="@dimen/_2sdp"
+    android:background="@color/background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cir_image_user"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:src="@drawable/no_user_image"
+        app:civ_border_color="@color/civ_border_color"
+        app:civ_border_width="@dimen/_1sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cir_image_user"
+        app:layout_constraintTop_toTopOf="@id/cir_image_user"
+        android:text="@string/sameh_esmael"
+        android:maxLength="24"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/magilio"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_16sdp"/>
+
+    <TextView
+        android:id="@+id/tv_latest_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/magilio"
+        android:text="@string/sameh_esmael_nady_esmael_dsda"
+        android:maxLength="24"
+        android:textColor="@color/hintTextColor"
+        app:layout_constraintBottom_toBottomOf="@id/cir_image_user"
+        app:layout_constraintEnd_toStartOf="@+id/tv_message_date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/cir_image_user" />
+
+    <TextView
+        android:id="@+id/tv_message_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:fontFamily="@font/magilio"
+        android:text="@string/_14_2_sunday"
+        android:textColor="@color/text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_user_name"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

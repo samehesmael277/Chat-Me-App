@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chat Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_to_chat_me">Login To Chat Me</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="i_don_t_have_an_account">I don\'t have an account</string>
+    <string name="register_in_chat_me">Register in Chat Me</string>
+    <string name="i_have_already_an_account">I have already an account</string>
+    <string name="register">Register</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="username">Username</string>
+    <string name="chats">Chats</string>
+    <string name="search">Search...</string>
+    <string name="new_message">New message</string>
+    <string name="logout">Logout</string>
+    <string name="sameh_esmael">Sameh Esmael</string>
+    <string name="sameh_esmael_nady_esmael_dsda">sameh esmael nady esmael dsda</string>
+    <string name="_14_2_sunday">14-2-sunday</string>
+    <string name="select_user">Select User</string>
+    <string name="enter_message">Enter message...</string>
+    <string name="send">Send</string>
+    <string name="profile">Profile</string>
+    <string name="save_user_profile">save user profile</string>
+    <string name="loading">Loading .....</string>
+</resources>

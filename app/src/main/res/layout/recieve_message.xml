@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/cir_img_user"-->
+<!--        android:layout_width="@dimen/_32sdp"-->
+<!--        android:layout_height="@dimen/_32sdp"-->
+<!--        android:layout_margin="@dimen/_8sdp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:src="@drawable/no_user_image"/>-->
+
+    <TextView
+        android:id="@+id/tv_receive_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:fontFamily="@font/magilio"
+        android:maxWidth="@dimen/_200sdp"
+        android:lineSpacingExtra="@dimen/_2sdp"
+        android:text="Sameh Esmael Nady Esamel Hassan Ahmed Shwit jsaghfjsa fsajfghsuiaf dgaisu aShwitaShwitaShwitaShwitaShwitaShwitaShwita"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:background="@drawable/message_receive_background"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

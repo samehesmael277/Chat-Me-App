@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "843306369385",
+    "project_id": "chat-me-4ab5f",
+    "storage_bucket": "chat-me-4ab5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843306369385:android:6eb7355598299cf828fdf8",
+        "android_client_info": {
+          "package_name": "com.sameh.chatme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843306369385-6l5hgmeqfg0asom1eajmto6a15cdbcvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sameh.chatme",
+            "certificate_hash": "d43eaad9bbb3bfff947cbab6a3d26ffb70163dc7"
+          }
+        },
+        {
+          "client_id": "843306369385-qf4nfql0k5r7eul964po80vj9an9r8bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2lC9pc456dfT4co52fNwosncVExGO4fY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843306369385-qf4nfql0k5r7eul964po80vj9an9r8bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

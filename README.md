@@ -1,5 +1,6 @@
 # Chat-Me-App
 
+![chatmedesign](https://user-images.githubusercontent.com/91541580/219614313-d4564858-dde2-46f9-9244-a742709eb5c0.jpg)
 
 <br>
 
@@ -7,12 +8,6 @@
 ## Preview App on YouTube
 
 * [Preview on YouTube]()
-
-
-<br>
-
-
-## Screenshots
 
 
 <br>
